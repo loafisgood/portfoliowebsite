@@ -1,0 +1,47 @@
+
+
+.LinkStyle:hover{
+    color: #0a0a23;
+    background-color: #f4f4f474;
+    border: 3px  #0a0a23;
+    border-radius: 35px;
+    text-decoration: none;
+    transition: 0.75s;
+    
+}
+
+.LinkStyle.active{
+    color: rgb(54, 132, 147);
+}
+
+#Link{
+    color: white;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    padding-bottom: 2.35rem;
+    padding-top: 2.35rem;
+    margin: 1.25em;
+    display: inline-block;
+    
+    letter-spacing: 5px;
+    text-decoration: none;
+
+}
+
+
+#Heading{
+    font-family: 'Pragati Narrow', sans-serif;
+    letter-spacing: 5.5px;
+}
+
+#Text{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+#Container{
+    margin: 0 auto;
+
+    padding: 0 auto;
+  
+}
