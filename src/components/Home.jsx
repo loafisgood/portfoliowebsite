@@ -88,8 +88,7 @@ const Home = () => {
             <Box className="timeline"id={"#Bottom"} >
                 <Timeline/>
 
-                
-    
+            
             </Box>
 
 
