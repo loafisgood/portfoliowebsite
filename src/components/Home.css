@@ -1,4 +1,24 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Arvo&family=Plus+Jakarta+Sans:wght@300&family=Pragati+Narrow&display=swap');
+
+
+.displayBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: rgba(23, 22, 22, 0.811);
+    height: 82.5%;
+    overflow: hidden;
+    font-family: 'Arvo', serif;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 0 auto;
+    background-image: linear-gradient(rgba(141, 171, 85, 0.908), rgba(95, 176, 197, 0.912))
+}
 .Box{
     display: inline-block;
     justify-content: flex;
@@ -10,8 +30,7 @@
     border: 2px solid black;
     border-radius: 10px;
     position: relative;
-    right: 250px;
-    top:  -100px;
+
 
     overflow: hidden;
 
@@ -41,6 +60,7 @@
     background-color: rgba(161, 157, 157, 0.58);
     
     border-radius: 20px;
+    overflow: hidden;
     
     
 }
@@ -54,7 +74,8 @@
     padding-left: 35px;
     color: rgb(0, 0, 0);
     padding-top: 20px;
-    padding: 2em
+    padding: 2em;
+    overflow: hidden;
 }
 
 
@@ -115,6 +136,7 @@
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 10px 0px rgba(29, 29, 29, 0.57); 
+    overflow: hidden;
 
 
 }
@@ -132,3 +154,24 @@
 
     
 }
+
+@media only screen and (max-width: 100%) {
+    /* place here CSS for when the screen is less than 500px tall */
+    .frogimage{
+      width: 100%;
+    }
+  }
+
+.timeline{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(189, 213, 233);
+   
+ 
+    overflow: hidden;
+    height: 100%;
+
+
+  }

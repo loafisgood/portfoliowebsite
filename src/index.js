@@ -6,8 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
 import {BrowserRouter, Router, Route, Routes} from 'react-router-dom';
 import Home from './components/Home';
-import Other from './components/Other';
-
+import Timeline from './components/Timeline';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,7 +16,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/header" element={<Header/>}/>
-      <Route path="/other" element={<Other/>}/>
+      <Route path="/Timeline" element={<Timeline/>}/>
     </Routes>
   </BrowserRouter>
 
