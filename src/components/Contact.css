@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Arvo&family=Gantari&family=Plus+Jakarta+Sans:wght@300&family=Pragati+Narrow&display=swap');
+
+
+.Contact{
+    display: flex;
+    position: relative;
+    left: 30%;
+    top: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 85%;
+    overflow: hidden;
+    font-family: 'Arvo', serif;
+    width: 35%;
+    border : 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+
+
+}
+
+.ContactHeading{
+    font-size: 3.25rem;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: inline-block; 
+    position: absolute;
+    top: 0;
+    left: 50px;
+    margin: 20px;
+ 
+    border-bottom: 5px solid black;
+ 
+    width: auto;
+    color: rgb(0, 0, 0);
+}
+
+.Background{
+    
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+
+    
+}

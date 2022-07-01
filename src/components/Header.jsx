@@ -1,4 +1,4 @@
-import { Text, Stack, HStack, Box, Container, Heading, Menu, MenuButton, MenuList, MenuGroup, MenuItem, Button, Link} from '@chakra-ui/react'
+import { Text, Container, Heading, Link} from '@chakra-ui/react'
 import './Header.css'
 import 
     {
@@ -34,7 +34,7 @@ const Header = () => {
                 </Link>
             </Text>
             <Text id="Text" fontSize={"1.5em"} color={"white"}  height={"13%"}>
-                <Link color={"white"} href='/' textDecoration={"none"} className={"LinkStyle"} id={"Link"} >
+                <Link color={"white"} href='#Middle' textDecoration={"none"} className={"LinkStyle"} id={"Link"} >
                     Home
                 </Link>
             </Text>

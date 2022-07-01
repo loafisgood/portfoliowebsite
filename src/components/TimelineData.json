@@ -1,10 +1,27 @@
 [
+    {
+        "id": 1,
+        "title": "Medlife Club",
+        "description": "Expansion Officer on the Medlife Club. Responsible for broadening the scope of the club's activities and providing a platform for new members to join.",
+        "date": "September 2022 - June 2023",
+        "icon": "school"
+
+    },
+
+    {
+        "id": 1,
+        "title": "World Vision Club Executive",
+        "description": "Assistant Executive on the World Vision Club. Responsible for the Club's bigger events aswell as administrative duties.",
+        "date": "September 2022 - June 2023",
+        "icon": "school"
+
+    },
 
     {
         "id": 1,
         "title": "LaunchHacks - Hackathon",
         "description": "Won Best Design Hack",
-        "date": "06/03/2022",
+        "date": "June 3rd 2022",
         "icon": "work"
     },
 
@@ -13,7 +30,7 @@
         "id": 2,
         "title": "NHacks VII - Hackathon",
         "description": "Won Best Beginner Hack",
-        "date": "05/022/2022",
+        "date": "May 22nd 2022",
         "icon": "work"
         
 
@@ -22,14 +39,14 @@
         "id": 3,
         "title": "High School",
         "description": "Student at Earl Haig Secondary School",
-        "date": "9/03/2020 - Present",
+        "date": "September 3rd 2020 - Present",
         "icon": "school"
     },
     {
         "id": 4,
         "title": "Middle School",
         "description": "Student at Willowdale Middle School",
-        "date": "06/28/2020",
+        "date": "June 28th 2020",
         "icon": "school"
     }
 

@@ -7,6 +7,7 @@ import Header from './components/Header';
 import {BrowserRouter, Router, Route, Routes} from 'react-router-dom';
 import Home from './components/Home';
 import Timeline from './components/Timeline';
+import Contact from './components/Contact';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/header" element={<Header/>}/>
       <Route path="/Timeline" element={<Timeline/>}/>
+      <Route path={"/Contact"} element={<Contact/>}/>
     </Routes>
   </BrowserRouter>
 
