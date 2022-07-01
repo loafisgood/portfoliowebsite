@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import './Home.css'
-import { Text, Image, Box, Container, Heading, VStack, Badge, Stack, Avatar, Flex, HStack} from '@chakra-ui/react'
+import { Text, Image, Box, Container, Heading,HStack} from '@chakra-ui/react'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -14,7 +14,7 @@ import
         faLinkedin,
         faGithub,
         faLinkedinIn,
-        faStaylinked
+        
     } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import TimelineData from './TimelineData.json'
@@ -71,11 +71,11 @@ const Home = () => {
                 </Box>
                 <Image alt="img" position={"relative"} className={"frogimage"}max src='https://64.media.tumblr.com/75302698a444d3568b3388b0d7e9e562/0bac904f3167e940-47/s500x750/bde1b908b91adb4594906b3391795cdffa3a8f2f.pnj'/>
             </HStack>
-            <HStack height={"100vh"} backgroundColor={"rgba(95, 176, 197, 0.912)"} width={"100%"}>
+            <HStack height={"100vh"} backgroundColor={"rgba(95, 176, 197, 0.912)"} width={"100%"} id={"Middle"}>
                 <Image position={"absolute"} width={"25%"} height={"50%"}left={"125px"}src="https://cdn.shopify.com/s/files/1/1061/1924/files/Thinking_Face_Emoji.png?6135488989279264585" alt="img" ></Image>
                 <Box data-aos="fade-left"className='Box' position={"relative"} left={"800px"} bottom={"12px"} marginTop={"0px"} > 
                     <Heading id={"#Middle"} className='Heading'>About Me</Heading>
-                    <Text className='Text'> Aside from all the tech stuff, I enjoy various hobbies such as video games, 
+                    <Text className='Text'> Aside from all the tech stuff, I am a diligent high school student (not really) with passion to pursue opportunities that come my way. I enjoy various hobbies such as video games, 
                     exercising, hanging out with friends, and listening to music. 
                     <br></br><br></br>
                     I also enjoy watching Youtube and Twitch. </Text>
@@ -90,6 +90,9 @@ const Home = () => {
 
             
             </Box>
+
+            <Footer />
+
 
 
             
