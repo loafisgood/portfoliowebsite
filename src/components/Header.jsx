@@ -29,13 +29,13 @@ const Header = () => {
                 </Heading>
 
             <Text id="Text"  fontSize={"1.5em"} color={"white"}  height={"100%"} >
-                <Link color={"white"} href='#Top' textDecoration={"none"} className={"LinkStyle"} id={"Link"}> 
-                  About 
+                <Link color={"white"} href='/' textDecoration={"none"} className={"LinkStyle"} id={"Link"}> 
+                  Home 
                 </Link>
             </Text>
             <Text id="Text" fontSize={"1.5em"} color={"white"}  height={"13%"}>
-                <Link color={"white"} href='#Middle' textDecoration={"none"} className={"LinkStyle"} id={"Link"} >
-                    Home
+                <Link color={"white"} href='/contact' textDecoration={"none"} className={"LinkStyle"} id={"Link"} >
+                    Contact 
                 </Link>
             </Text>
             <Text id="Text" fontSize={"1.5em"} color={"white"}  height={"13%"}>

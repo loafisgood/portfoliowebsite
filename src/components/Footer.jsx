@@ -26,22 +26,31 @@ export const Footer = () => {
 
               
 
+              
+
               </Text>
               <Text className='FooterText'>
+                Earl Haig Secondary School
                
 
               </Text>
             </VStack>
-            <VStack className='VStack' >
+            <VStack className='VStack'>
               <Heading as="h3" size="lg" fontWeight="normal" color="gray.500" id={"Title"}>
                 <Icon>
                   <BellIcon color={'gold'}/>
                 </Icon>
                 Contact
               </Heading>
-              <Text className='LinkStyle'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            
+              <Text className='FooterText'>
+                School E-Mail: lucas.yu3@student.tdsb.on.ca
+
+              </Text >
+              <Text className='FooterText'>
+                Personal E-Mail: lucas.loafisgood@gmail.com 
+              </Text>
+              <Text className='FooterText'>
+                Phone: 416-731-6081
               </Text>
             </VStack>
             <VStack className='VStack'>
@@ -53,9 +62,17 @@ export const Footer = () => {
 
                 Follow
               </Heading>
-              <Text className='FooterText'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </Text>
+              
+              <Link href="https://www.linkedin.com/in/lucas-yu-b9a8b917b/" target="_blank">
+                LinkedIn
+              </Link>
+              <Link href="https://instagram.com/_lucasyu_" target="_blank"> Instagram</Link>
+              <Link href="https://twitter.com/luacslol" target="_blank"> Twitter</Link>
+              <Link href="
+              https://www.facebook.com/lucas.yu.9" target="_blank"> Facebook</Link>
+
+
+              
             </VStack>
           </HStack>
         </Box>

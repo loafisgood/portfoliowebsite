@@ -8,11 +8,13 @@ import {BrowserRouter, Router, Route, Routes} from 'react-router-dom';
 import Home from './components/Home';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
+import { ChakraProvider } from '@chakra-ui/react'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
+ 
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
@@ -21,6 +23,7 @@ root.render(
       <Route path={"/Contact"} element={<Contact/>}/>
     </Routes>
   </BrowserRouter>
+
 
 );
 

@@ -14,8 +14,8 @@
     overflow: hidden;
     font-family: 'Arvo', serif;
     width: 35%;
-    border : 2px solid black;
-    border-radius: 10px;
+    border : 2.5px solid black;
+    border-radius: 40px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 
 
@@ -41,9 +41,66 @@
 
 .Background{
     
-    background-color: aquamarine;
-    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.798);
+    height: 85vh;
     width: 100%;
 
     
+}
+
+label {
+    display: block;
+    font-size: 1.5rem;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 10px;
+   
+
+}
+
+textarea{
+    display: block;
+    font-size: 1.25rem;
+    font-family: 'Arvo', serif;
+    
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    
+    position: relative;
+    top: 10px;
+    left: 10px;
+   
+
+}
+
+#input{
+    display: block; 
+    font-size: 1.25rem;
+    position: relative;
+    top: 10px;
+    padding: 5px;
+}
+
+
+#Submit{
+    border-radius: 20px;
+    background-color : rgba(0, 0, 0, 0.851);
+    letter-spacing: -0.75px;
+    font-family: 'Arvo', serif;
+    color: white;
+    padding: 0.5em;
+    font-size: 1rem;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    margin-top: 5px;
+
+
+}
+
+#Submit:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
 }

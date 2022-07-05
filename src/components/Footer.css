@@ -51,7 +51,10 @@ Container.Box{
     font-size: 1rem;
     font-family: 'Arvo', serif;
     color: white;
-    text-align: start;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
 }
 
 #Title{
