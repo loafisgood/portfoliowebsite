@@ -34,7 +34,7 @@ const Header = () => {
                 </Link>
             </Text>
             <Text id="Text" fontSize={"1.5em"} color={"white"}  height={"13%"}>
-                <Link color={"white"} href='/contact' textDecoration={"none"} className={"LinkStyle"} id={"Link"} >
+                <Link color={"white"} href='/Contact' textDecoration={"none"} className={"LinkStyle"} id={"Link"} >
                     Contact 
                 </Link>
             </Text>
